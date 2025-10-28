@@ -1,0 +1,25 @@
+/*Experiment 4: Loops
+4.3:Write seperate programs for each patterns.
+7.*/
+
+#include <stdio.h>
+int main()
+{
+    printf("Name - Daksh Bhargava\nSAP ID - 590028335\nCourse - BCA\nBatch - B6");
+    printf("\n-------------------------------------\n");
+
+    int i,j,s;
+    for(i=5;i>=1;i--)
+    {
+        for(s=5;s>i;s--)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+return 0;
+}
